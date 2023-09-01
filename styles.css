@@ -1,0 +1,33 @@
+header {
+    display: inline;
+}
+
+#flex1 {
+    background-color: blue;
+}
+
+#flex2 {
+    background-color: blue;
+}
+
+#flex3 {
+    background-color: blue;
+}
+
+#flex4 {
+    background-color: blue;
+}
+
+#flex5 {
+    background-color: blue;
+}
+
+.box {
+    color: white;
+    background-color: blue;
+    width: 100px;
+}
+
+footer {
+    text-align: right;
+}
