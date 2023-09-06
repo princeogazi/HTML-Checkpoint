@@ -1,0 +1,422 @@
+html {
+  font-family: sans-serif;
+}
+
+#patients {
+  border-radius: 5px;
+}
+
+#doctors {
+  border-radius: 5px;
+}
+
+#clinics {
+  border-radius: 5px;
+}
+
+#doctorsheading {
+  font-size: 30px;
+}
+
+#patientsheading {
+  font-size: 30px;
+}
+
+#clinicsheading {
+  font-size: 30px;
+}
+
+#logo {
+  padding-left: 267px;
+  padding-top: 12px;
+}
+
+#wordnav {
+  display: inline;
+  padding-left: 525px;
+  font-size: 18px;
+  /*font-family: sans-serif;*/
+}
+
+#aboutcolor {
+  color: rgb(37, 196, 143);
+}
+
+#centerlogo {
+  padding-top: 77px;
+  padding-left: 764px;
+}
+
+#centermotto {
+  color: rgb(37, 196, 143);
+  font-size: 30px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.square {
+  width: 550px;
+  height: 90px;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 17px;
+  color: rgb(189, 179, 179);
+}
+
+.double {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  
+}
+
+.one {
+  background-color: transparent;
+  margin: 5px;
+}
+
+.two {
+  background-color: transparent;
+  margin: 5px;
+}
+
+.box {
+  border-radius: 10px;
+  width: 300px;
+  height: 275px;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 17px;
+  color: white;
+}
+
+.triple {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.trip1 {
+  background-color: rgb(37, 196, 143);
+  margin: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.trip2 {
+  background-color: rgb(44, 111, 235);
+  margin: 10px;
+}
+
+.trip3 {
+  background-color: rgb(2, 9, 44);
+  margin: 10px;
+}
+
+.grid {
+  width: 75px;
+  height: 50px;
+}
+
+.gridbox {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(37, 196, 143);
+  /*justify-content: flex-end;*/
+  font-size: 20px;
+  /*height: 160px;*/
+}
+
+.un {
+  background-color: transparent;
+  width: 150px;
+  height: 75px;
+}
+
+.deux {
+  background-color: transparent;
+  margin: 10px;
+}
+  
+.trois {
+  background-color: transparent;
+  margin: 10px;
+}
+  
+.quatre {
+  background-color: transparent;
+  width: 150px;
+  height: 75px;
+}
+  
+.cinq {
+  background-color: transparent;
+  margin: 10px;
+}
+  
+.six {
+  background-color: transparent;
+  padding-left: 100px;
+  margin: 10px;
+}
+  
+.sept {
+  background-color: transparent;
+  margin: 10px;
+}
+  
+.huit {
+  background-color: transparent;
+  margin: 10px;
+}
+  
+.neuf {
+  background-color: transparent;
+  margin: 10px;
+}
+
+.dix {
+  background-color: transparent;
+  margin: 10px;
+}
+
+.gridbox2 {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(37, 196, 143);
+  /*justify-content: flex-end;
+  font-size: 20px;
+  height: 160px;*/
+  padding-left: 760px;
+  /*padding-bottom: 200px;*/
+}
+
+.sept2 {
+  background-color: transparent;
+  margin: 10px;
+}
+  
+.huit2 {
+  background-color: transparent;
+  margin: 10px;
+}
+
+.flexbox {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  background-color: rgb(131, 223, 192);
+  width: auto;
+  justify-content: flex-end;
+  height: 600px;
+  margin-right: 10px;
+  margin-left: -15px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.uno {
+  background-color: rgb(131, 223, 192);;
+  height: 600px;
+  width: 780px;
+}
+
+#topwriteup1 {
+  padding-left: 250px;
+  margin-top: 50px;
+  color: rgb(37, 196, 143);
+}
+
+#topwriteup2 {
+  padding-left: 250px;
+  color: rgb(37, 196, 143);
+}
+
+#topwriteup3 {
+  font-size: 15px;
+  padding-left: 250px;
+  color: rgb(129, 120, 120);
+}
+
+#topwriteup4 {
+  font-size: 15px;
+  padding-left: 250px;
+  color: rgb(129, 120, 120);
+}
+
+#cropped {
+  padding-top: 38px;
+  padding-left: 180px;
+}
+
+.dos {
+  /*background-color: green;
+  height: 600px;
+  width: 780px;*/
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  /*grid-row: auto auto;*/
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  padding-right: 280px;
+  padding-top: 100px;
+}
+
+.gridsp1 {
+  background-color: white;
+  font-size: smaller;
+  text-align: center;
+}
+
+#flagpic {
+  padding-top: 10px;
+}
+
+.gridsp2 {
+  background-color: white;
+  font-size: smaller;
+  text-align: center;
+}
+
+#visits1 {
+  padding-top: 10px;
+}
+
+.gridsp3 {
+  background-color: white;
+  font-size: smaller;
+  text-align: center;
+}
+
+#patients1 {
+  padding-top: 10px;
+}
+
+.gridsp4 {
+  background-color: white;
+  font-size: smaller;
+  text-align: center;
+}
+
+#doctors2 {
+  padding-top: 10px;
+}
+
+.centerwriteup {
+  text-align: center;
+  color: rgb(37, 196, 143);
+  padding-top: 80px;
+  font-size: 20px;
+}
+
+.lowercenterwriteup {
+  text-align: center;
+  color: rgb(189, 179, 179);
+  font-size: 15px;
+  margin-top: -50px;
+}
+
+.ninebox {
+  display: grid;
+  width: 900px;
+  height: 1100px;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 100px;
+  padding-left: 265px;
+  
+}
+
+.cell1 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell2 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell3 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell4 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell5 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell6 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell7 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell8 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.cell9 {
+  background-color: transparent;
+  margin: 5px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  height: 30px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+.quote {
+  font-size: 35px;
+  text-align: center;
+}
+
+#big {
+  width: 100px;
+  height: 50px;
+  margin-top: 15px;
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(189, 179, 179);
+}
