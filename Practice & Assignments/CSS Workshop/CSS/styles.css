@@ -1,0 +1,29 @@
+#hello {
+    color: blue;
+    padding: 10px;
+}
+
+.jack {
+    color: tomato;
+}
+
+h3 {
+    color: slateblue;
+}
+
+.square {
+    height: 120px;
+    width: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+    border: 3px solid red;
+    display: inline-block
+}
+
+.abc {
+    color: white;
+}
+
+.one {
+    padding-left: 10px;
+}

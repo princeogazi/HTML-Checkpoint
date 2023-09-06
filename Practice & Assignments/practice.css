@@ -1,0 +1,63 @@
+.flex-item {
+    width: 200px;
+    /*height: 100px;*/
+    background-color: aquamarine;
+}
+
+.item1 {
+    background-color: yellow;
+}
+
+.item2 {
+    background-color: blue;
+}
+
+.item3 {
+    background-color: red;
+}
+
+.item4 {
+    background-color: green;
+}
+
+.item5 {
+    background-color: gold;
+}
+
+.item6 {
+    background-color: silver;
+}
+
+.item7 {
+    background-color: brown;
+}
+
+.item8 {
+    background-color: blueviolet;
+}
+
+.item9 {
+    background-color: chartreuse;
+}
+
+.item10 {
+    background-color: darkgreen;
+}
+
+.item11 {
+    background-color: fuchsia;
+}
+
+.item12 {
+    background-color: greenyellow;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    /*align-items: flex-end;*/
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    height: 400px;
+}

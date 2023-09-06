@@ -1,0 +1,6 @@
+ALGORITHM algorithm_name
+VAR
+type=age
+BEGIN
+    set_instructions
+END

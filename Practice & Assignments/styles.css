@@ -1,0 +1,54 @@
+#main {
+    width: 100%;
+    position: relative;
+}
+
+.F1 {
+    width: 200px;
+    height: 100px;
+}
+
+#flex1 {
+    background-color: red;
+    
+}
+
+#flex2 {
+    background-color: blue;
+}
+
+#flex3 {
+    background-color: green;
+    position: sticky;
+    top: 0;
+}
+
+#flex4 {
+    background-color: yellow;
+    position: absolute;
+    top: 5px;
+}
+
+#flex5 {
+    background-color: blueviolet;
+}
+
+#flex6 {
+    background-color: chocolate;
+}
+
+#flex7 {
+    background-color: chartreuse;
+}
+
+#flex8 {
+    background-color: silver;
+}
+
+#flex9 {
+    background-color: gold;
+}
+
+#flex10 {
+    background-color: purple;
+}
