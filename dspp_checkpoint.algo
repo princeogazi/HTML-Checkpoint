@@ -1,0 +1,61 @@
+ALGORITHM dspp_checkpoint
+
+VAR
+# Initialize two sets as arrays
+set1 = [3, 1, 7, 9]
+set2 = [2, 4, 1, 9, 3]
+
+# Initialize the sum
+sum = 0
+
+BEGIN
+# Iterate through elements in set1
+for element in set1:
+    # If the element is not in set2, add it to the sum
+    if element not in set2:
+        sum += element
+
+# Iterate through elements in set2
+for element in set2:
+    # If the element is not in set1, add it to the sum
+    if element not in set1:
+        sum += element
+
+# The sum variable now contains the sum of distinct elements
+Write ("Output:", sum)
+
+# Function to calculate the dot product of two vectors
+def dot_product(v1, v2):
+    if len(v1) != len(v2):
+        return None  # Vectors must have the same dimension
+    result = 0
+    for i in range(len(v1)):
+        result += v1[i] * v2[i]
+    return result
+
+# Function to check if two vectors are orthogonal
+def are_orthogonal(v1, v2):
+    dot = dot_product(v1, v2)
+    return dot == 0
+
+# Example vectors
+vectors = [
+    [1, 0, 0],
+    [0, 1, 0],
+    [1, 1, 0],
+    [1, -1, 0]
+]
+
+n = len(vectors)
+
+# Check orthogonality for all pairs of vectors
+for i in range(n):
+    for j in range(i + 1, n):
+        v1 = vectors[i]
+        v2 = vectors[j]
+        if are_orthogonal(v1, v2):
+            print(f"Vectors {v1} and {v2} are orthogonal.")
+        else:
+            print(f"Vectors {v1} and {v2} are not orthogonal.")
+
+END
