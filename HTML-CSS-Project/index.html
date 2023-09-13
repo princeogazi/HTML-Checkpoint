@@ -4,23 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My HTML and CSS Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="container container-flex">
             <div class="site-title">
-                <h1>Living the social life</h1>
+                <h1>Living the social Life</h1>
                 <p class="subtitle">A blog exploring minimalism in LIFE</p>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">About Me</a></li>
-                    <li>Recent Posts</li>
+                    <li><a class="current-page" href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About me</a></li>
+                    <li><a href="recent-posts.html">Recent posts</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <div class="container container-flex">
+        <main role="main">
+            <article class="article-featured">
+                <h2 class="article-title">Finding simplicity in life</h2>
+                <img src="laptop on a table.jpeg" alt="a laptop" class="article-image">
+                <p class="article-info">September 05, 2023 | 3 comments</p>
+                <p class="article-body"><strong>Life can get complicated really quickly</strong>, but it doesn't have to be! There are many ways to simplify your life, <a href="#">a few of which we've explored in the past</a>. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living.</p>
+                <a class="article-read-more" href="">Continue reading</a>
+            </article>
+        </main>
+    </div>
 </body>
 </html>

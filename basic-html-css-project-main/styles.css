@@ -37,6 +37,7 @@ a:focus {
     text-transform: uppercase;
 }
 
+
 /* Layout  */
 
 .container {
@@ -95,6 +96,11 @@ nav a {
     margin-bottom: 2em;
 }
 
+.article-featured-about-me {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
 img {
     max-width: 100%;
     display: block;
@@ -111,8 +117,13 @@ img {
     object-fit: cover;
 }
 
+
 .article-title {
     font-size: 1.5rem;
+}
+
+.article-title-about-me {
+    color: #1792d2;
 }
 
 .article-read-more,
@@ -137,4 +148,81 @@ img {
 .article-info {
     margin: 2em 0;
     order: -1;
+}
+
+.article-recent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-recent-secondary {
+    order: 1;
+    width: 30%;
+}
+
+.article-recent-main {
+    order: 2;
+    width: 68%;
+}
+
+.article-recent-main-about-me {
+    width: 95%;
+
+}
+
+/* widgets */
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+    min-width: 200px;
+    margin-left: 1em;
+}
+
+.sidebar-widget {
+    border: 20px solid #efefef;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.widget-recent-post {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child {
+    border: 0;
+    margin: 0;
+}
+
+.widget-image {
+    order: -1;
+}
+
+.widget-title,
+.widget-recent-post-title {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.widget-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.widget-recent-post-title {
+    color: #143774;
+}
+
+footer {
+    background:#143774;
+    color: white;
+    text-align: center;
+    padding: 3em 0;
 }

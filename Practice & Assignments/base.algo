@@ -1,6 +1,11 @@
-ALGORITHM algorithm_name
+ALGORITHM three_nb_add
 VAR
-type=age
+    num1, num2, num3 : INTEGER;
+    sum : INTEGER:=0
 BEGIN
-    set_instructions
+    Read(num1)
+    Read(num2)
+    Read(num3)
+    sum := num1 + num2 + num3;
+    Write(sum)
 END

@@ -1,0 +1,32 @@
+ALGORITHM algo_checkpoint
+
+VAR
+# Initialize counters
+sentence_length = 0
+word_count = 0
+vowel_count = 0
+
+BEGIN
+# Read the sentence character by character
+sentence = input("Red wine is the best wine: ")
+
+for char in sentence:
+    # Increment sentence length counter for each character
+    sentence_length += 1
+
+    # Check if the character is a letter and not a space or punctuation
+    if char.isalpha():
+        # If it's a vowel, increment the vowel count
+        if char.lower() in ['a', 'e', 'i', 'o', 'u']:
+            vowel_count += 1
+
+        # Check if the previous character was a space (indicating the start of a new word)
+        # If yes, increment word count
+        if sentence_length == 1 or sentence[sentence_length - 2] == ' ':
+            word_count += 1
+
+# Display the results
+Write("Sentence Length:", sentence_length)
+Write("Word Count:", word_count)
+Write("Vowel Count:", vowel_count)
+END
